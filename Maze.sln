@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze", "Maze.csproj", "{A5DADC02-9D17-4B2C-972B-206A32B664F8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeTest", "MazeTest\MazeTest.csproj", "{0924D717-FDCE-43F6-859F-35060351E7B8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSupport", "MazeSupport\MazeSupport.csproj", "{E9ED8BA4-121F-4CFE-86A6-7E944FEA1080}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A5DADC02-9D17-4B2C-972B-206A32B664F8}.Debug.ActiveCfg = Debug|.NET
+		{A5DADC02-9D17-4B2C-972B-206A32B664F8}.Debug.Build.0 = Debug|.NET
+		{A5DADC02-9D17-4B2C-972B-206A32B664F8}.Release.ActiveCfg = Release|.NET
+		{A5DADC02-9D17-4B2C-972B-206A32B664F8}.Release.Build.0 = Release|.NET
+		{0924D717-FDCE-43F6-859F-35060351E7B8}.Debug.ActiveCfg = Debug|.NET
+		{0924D717-FDCE-43F6-859F-35060351E7B8}.Debug.Build.0 = Debug|.NET
+		{0924D717-FDCE-43F6-859F-35060351E7B8}.Release.ActiveCfg = Release|.NET
+		{0924D717-FDCE-43F6-859F-35060351E7B8}.Release.Build.0 = Release|.NET
+		{E9ED8BA4-121F-4CFE-86A6-7E944FEA1080}.Debug.ActiveCfg = Debug|.NET
+		{E9ED8BA4-121F-4CFE-86A6-7E944FEA1080}.Debug.Build.0 = Debug|.NET
+		{E9ED8BA4-121F-4CFE-86A6-7E944FEA1080}.Release.ActiveCfg = Release|.NET
+		{E9ED8BA4-121F-4CFE-86A6-7E944FEA1080}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
